@@ -1,0 +1,51 @@
+body{
+  font-family: 'Bakbak One', cursive;
+  font-family: 'Nanum Gothic', sans-serif;
+  
+}
+.out-box{
+  height: 100vh;
+  /* background-image: url('../images/2-background.jpg'); */
+}
+.out-box .inner{
+  position: relative;
+  width: 753px;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.out-box .title{
+  border: 1px solid black;
+  margin: 200px auto 0 auto;
+  font-size: 50px;
+  font-weight: 900;
+  height: auto;
+}
+.out-box .text{
+  opacity: 1;
+  flex: 2;
+  height: 150px;
+  text-align: center;
+  width:  500px;
+  margin: 300px auto 30px auto;
+  font-size: 23px;
+  font-weight: 600;
+}
+.out-box .youtube{
+  flex: 2;
+  margin: 200px 5px 100px 5px;
+  width: 92%;
+  box-sizing: border-box;
+}
+.out-box .youtube video{
+  border: 3px solid #333;
+  width: 100%;
+  box-sizing: border-box ;
+}

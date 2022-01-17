@@ -1,0 +1,80 @@
+body{
+  font-family: 'Bakbak One', cursive;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.out-box{
+  display: flex;
+  height: 100vh;
+}
+.out-box .inner{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  flex: 1;
+  /* border-right: 3px solid #333; */
+  justify-content: center;
+  align-items: center;
+  transition: .7s;
+  opacity: 1;
+}
+.out-box .inner.left{
+  height: 100vh;
+  background-image:url("../images/index-left.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center ;
+}
+.out-box .inner.middle{
+  background-image:url("../images/index-middle.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center ;
+}
+.out-box .inner.right{
+  background-image: url("../images/index-right.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center ;
+}
+
+.out-box .inner .text{
+  padding: 100px 40px 0 40px;
+  margin: 50px auto;
+  font-size: 48px;
+  font-weight: 900;
+}
+.out-box .sub-text{
+  text-align: center;
+  width: 220px;
+  margin: 50px 20px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+}
+.out-box .inner:hover{
+  flex-grow:4;
+}
+.out-box .inner.left:hover{
+  background-image: url("../images/index-left-hover.png");
+  background-size: cover;
+}
+.out-box .inner.middle:hover{
+  background-image: url("../images/index-middle-hover.png");
+  background-size: cover;
+}
+.out-box .inner.right:hover{
+  background-image: url("../images/index-right-hover.png");
+  background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
